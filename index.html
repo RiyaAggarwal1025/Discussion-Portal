@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Discussion App</title>
+</head>
+<body>
+    <div id="nav"><h1>Discussion Portal</h1></div>
+    <div id="page">
+        <div id="list">
+            <div id="buttons">
+                <button class="btn" id="NewQues">New Question Form</button>
+                <input type="text" id="search" placeholder="Search question">
+            </div>
+            <div id="addQues">
+                <ol id="listQues">
+                    
+                </ol>
+            </div>
+        </div>
+        <div id="ques">
+            <h1>Welcome to Discussion portal</h1>
+            <p>Enter a subject and question to get answer.</p>
+            <input type="text" id="Subject" placeholder="Subject"><br><br>
+            <textarea id="Question" placeholder="Question" cols="70" rows="10"></textarea>
+            <button class="btn" id="Submit">Submit</button>
+        </div>
+        <div id="responsePage">
+            <h3>Question</h3>
+            <div id="ResQues"></div>
+            <button class="btn" id="Resolve">Resolve</button>
+            <h5>Response</h5>
+            <div id="myResponses"></div>
+            <h3>Add Response</h3>
+            <input type="text" placeholder="Enter Name" id="name"><br><br>
+            <textarea name="Comment" id="Comment" placeholder="Enter Comment" rows="5" cols="70"></textarea>
+            <button class="btn" id="add">Add Comment</button>
+        </div>
+    </div>
+    <script src="temp.js"></script>
+</body>
+</html>

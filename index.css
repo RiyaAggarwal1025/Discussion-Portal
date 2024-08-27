@@ -1,0 +1,137 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#page {
+    display: flex;
+}
+
+#nav {
+    color: white;
+    background-color: rgb(69, 69, 141);
+    padding: 3px 5px 3px 10px;
+}
+
+#addQues {
+    width: 100%;
+    height:100%;
+    background-color: rgb(218, 219, 219);
+}
+
+#list {
+    width: 100%;
+}
+
+#ques {
+    width: 100%;
+    margin-left: 5%;
+}
+
+ol {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    padding: 8px 50px 8px 8px;
+    text-align: justify;
+    border: 0px;
+}
+
+#buttons {
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    display: flex;
+}
+
+#search {
+    margin-left: 10%;
+    padding: 8px;
+}
+
+#Submit {
+    margin-left: 73%;
+}
+
+#responsePage {
+    width: 100%;
+    margin-left: 5%;
+    display: none;
+    #ResQues {
+        width: 90%;
+        
+        background-color: rgb(218, 219, 219);
+    }
+}
+
+#Resolve {
+    margin: 1% 0px 0px 72%;
+}
+
+.myQues {
+    margin: 4%;
+    border: 1px solid black;
+    padding: 2%;
+}
+
+li{
+    list-style-type: none;
+}
+
+.myResponsesDiv{
+    display: flexbox;
+    
+}
+
+.ResponsesComments {
+    background-color: rgb(218, 219, 219);
+    display: flex;
+    align-items: center;
+    h4 {
+        font-size: 17px;
+        color: black;
+    }
+    span {
+        color: rgb(228, 72, 163);
+    }
+    
+}
+
+#myResponses {
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.myQues {
+    margin: 4%;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.image{
+    width:40px;
+    height:40px;
+    position: relative;
+}
+
+.likeImages{
+    width:40px;
+    height:40px;
+    position: relative;
+}
+
+.subject{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.highlight{
+    background-color: yellow;
+}
